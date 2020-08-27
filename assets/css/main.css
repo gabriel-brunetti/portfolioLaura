@@ -213,3 +213,43 @@ main {
     min-height: 100%;
     vertical-align: top;
 }
+
+
+/* RESPONSIVIDADE */
+
+/* celular até tablet */
+@media (min-width: 576px) and (max-width: 786px){
+    body {
+        flex-flow: column;
+    }
+
+    /* side */
+    .side-content {
+        width: 100%;
+    }
+
+    /* barra de navegação */
+    nav {
+        display: none;
+    }
+
+    /* seção galeria */
+    main {
+        width: 100%;
+    }
+
+    /* seção galeria */
+    .project-covers {
+        width: 100%;
+    }
+
+    /* container imgs */
+    .project-covers > a {
+        width: 100%;
+    }
+
+    /* img individual */
+    .project-cover {
+        width: 100%;
+    }
+}
