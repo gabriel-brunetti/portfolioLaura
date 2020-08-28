@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap');
+
+/* TIPOGRAFIA */
+h3 {
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+p {
+    color: #999999;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    text-align: center;
+    text-transform: none;
+}
+
+article > p:first-child {
+    font-weight: 500;
+}
+
+article > p:nth-child(n+2) {
+    letter-spacing: -0.5px;
+}
+
+/* POSICIONAMENTO */
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    width: 100%;
+}
+
+article > p:first-child {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    max-width: 775px;
+    width: 100%;
+}
+
+.links {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  0 auto;
+}
+
+.links > a {
+    color: #9c0101;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
