@@ -1,6 +1,6 @@
 /* CSS Modal Imagem */
 
-#myImg {
+.projeto-img {
     cursor: zoom-in;
     transition: 0.3s;
 }
