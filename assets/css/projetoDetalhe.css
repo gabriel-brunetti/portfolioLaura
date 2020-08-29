@@ -140,6 +140,12 @@ main {
   width: 100%;
 }
 
+.projeto-img {
+    width: 100vw;
+    max-height: 100vh;
+    max-width: 100%;
+}
+
 .lado-a-lado {
   display: flex;
   margin: 4px 0;
