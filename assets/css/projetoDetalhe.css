@@ -151,7 +151,6 @@ main {
   margin: 4px 0;
   width: 100%;
   justify-content: flex-start;
-  resize: auto;
   overflow: hidden;
   flex-wrap: nowrap;
 }
@@ -161,7 +160,7 @@ main {
 }
 
 .lado-a-lado > img:last-child {
-  margin: 0;
+  margin-right: 0;
 }
 
 .quatro-imgs {
