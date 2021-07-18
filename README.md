@@ -1,4 +1,4 @@
-## portfolio Laura
+## portfolio laura
 portfólio para a arquiteta e paisagista Laura Gil
 
 ## deploys do projeto
